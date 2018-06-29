@@ -1,0 +1,52 @@
+Planeacions
+TODO VA A SER ORIENTADO A OBJETOS
+1- como se va a hacer ?
+Que elementos son necesarios ?
+RESPUESTA
+-js,react,angular,query,proxy.
+-php,larabel,proxy, bootstrap
+-java:jdf,servlet.
+Se complementa de un sistema puro y apropiado poo.
+
+con que tiempo?
+RESPUESTA
+tiempo libre noche dia tarde.
+
+como se adquieren los conocimientos?
+RESPUESTA
+estudiando todos los dias sin pausa.
+
+que actidud piensa frente a un buen desarrollo?
+RESPUESTA
+Humildad y perseverancia dedicacion
+
+Que va a tener el sistema?
+RESPUESTA
+1.login de usuario -> confirmacion de existencia
+1.1-se comprime lugar hora y fecha del inicion (IP).
+1.2-En caso de Olvido Se le envia al correo
+1.3-Ingresa sesion.
+1.4-puede hacer traferencia de $, pagar boletas, ver eventos.
+1.5-se le pregunta si se puede siempre que entre obtener su direccion ip.
+1.6- si acepta le saldran los lugares mas sercanos y
+clasificacion de los usuarios
+1.7-si no sale todo en general.
+1.8- puede buscar por nombre, direccion o barrio ( Colombia ).
+2.registro de usuario -> verifica gmail
+2.1-Correo y contrase�a Tiene que ingresar el codigo que se le envie.
+2.2-se comprime lugar hora y fecha del registro(seguridad)
+2.3-accede a menu despues del codigo
+2.4-Se le pregunta si quiere que el sistema tenga su direccion como uber.
+3.Registro de Bar
+3.0- Pendiente (Modo de pago no se aprender efectivo o debito)un ejemplo es: comprar las targetas
+3.1- asignacion de cuenta como NEFLIX el usuario queda registrado.
+3.2- Promociones de meses como NEFLIX Puede tener varias tiendas registradas
+pero tiene que pagar por cada una (rebajo de costos).
+3.3-Menu desplegable diferente al del usuario muestra
+inicio el registro de las tiendas (Los productos)
+3.4-Puede ver las visitas los comentarios y sugerencias
+de los clientes calificaciones Los dias mas pedidos en
+la que la gente se registro y confirmo que asistiran(Encuestas).
+3.5-Puede ver las zonas mas pedidas por los clientes.
+ (Bares mas frecuentes ubicacion sectores).
+3.5-Configuracion Cambios de tienda Dia de pago Eliminar

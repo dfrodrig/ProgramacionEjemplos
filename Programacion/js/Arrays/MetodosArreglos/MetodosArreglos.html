@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <script type="text/javascript">
+  	
+   var Arreglo=['Diego','Rodriguez'];
+      var Arreglo2=['Luis','Paula'];  
+        document.write("length recorre el arreglo   ");
+        //Cuenta cuantos arreglos tiene
+         document.write(Arreglo.length+"<br>"+"<br>");
+  
+        // Arreglo.push() adiciona un nuevo espacio 
+         Arreglo.push("Camilo","Fernandez");
+        //Elimina el ultimo espacio
+         Arreglo.pop();
+         
+
+         //Concatenacion de arrays 
+          var Arreglo3=Arreglo.concat(Arreglo2);
+         //ordena el array
+          var order=Arreglo3.sort();
+           document.write("  "+" Concatenacion: "+order+"<br>"+"<br>");
+            document.write("Recorrer arreglo "+"<br>");
+
+           for (var i = 0; i <=order.length; i++) {
+           	document.write(i+" "+ order[i]);
+           }
+
+        
+  </script>
+</body>
+</html>

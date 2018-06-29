@@ -1,0 +1,1 @@
+//para hacer inner join es importante que haya una relacion entre las tablas(Llave Foranea)

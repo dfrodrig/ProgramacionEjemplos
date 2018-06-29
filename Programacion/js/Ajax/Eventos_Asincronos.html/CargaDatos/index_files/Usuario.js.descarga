@@ -1,0 +1,29 @@
+function enviarDatos(evento){
+    evento.preventDefault();
+
+     var DatosPre={
+      url: 'controlador/Datos.php',
+       method: 'POST',
+        dataType:'text',
+         data: $(this).serialize(),
+      beforeSend: function(){
+         $("#script").fadeIn('slow')
+      },
+      error: function(xhr,textstatus,error){
+       console.log(error,xhr,textstatus)  
+        $('#script').fadeOut('slow',function(){
+          $('#datos').fadeIn('slow').html("<p>Error:</p> "+xhr.status)
+        })
+      },
+      sucess: function(data,textstatus,xhr){
+       console.log(data,xhr,textstatus) 
+        $('#script').fadeOut('slow',function(){
+          $('#datos').fadeIn('slow').html(data)
+        })   
+      }
+     }
+      console.log($(this).serialize());
+    $.ajax(DatosPre)
+  }
+
+$("#contenido").on('submit', enviarDatos)

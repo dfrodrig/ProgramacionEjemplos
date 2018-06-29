@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <script type="text/javascript">
+
+  //en una funcion nunca se imprime dentro de ella
+  	function nombre(nombre){
+       document.write(nombre);
+  	 }
+
+      nombre("Diego"+"<br>");
+
+     function suma(num,num1){
+     	 num3=num*num1;
+     	    num=num3; 
+     	  return num3;
+     }
+  	 
+  	 document.write(suma(7821,2123122));
+
+
+     //manera diferente de interpretar las funciones
+  	 var nombre = function (nombre){
+       return nombre;
+  	 }
+  	 document.write("<br>"+nombre("Diego"));
+
+
+  	 function ValorMax(num,num1){
+  	 	if (num>num1) { 
+  	 		return num;
+  	 	}else {
+  	 		return num1;
+  	 	}
+     }
+    document.write("<br>"+ValorMax(7821,212));
+  </script>
+</body>
+</html>
